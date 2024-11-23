@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/DotDagerApp/static/css/main.6d0df1b8.css",
+    "main.js": "/DotDagerApp/static/js/main.57de83d2.js",
+    "static/js/453.54d27fe6.chunk.js": "/DotDagerApp/static/js/453.54d27fe6.chunk.js",
+    "static/media/philosophy.webp": "/DotDagerApp/static/media/philosophy.6965384e604e22495245.webp",
+    "static/media/cats.webp": "/DotDagerApp/static/media/cats.5eb5e99ef4f541e13c52.webp",
+    "static/media/guitars.webp": "/DotDagerApp/static/media/guitars.5385e7e1fab4837196ce.webp",
+    "static/media/avatar.jpg": "/DotDagerApp/static/media/avatar.b0cf4e59b7d54a8c1aea.jpg",
+    "static/media/menulis.ttf": "/DotDagerApp/static/media/menulis.a21f341400cf0f475ab5.ttf",
+    "static/media/Calvera.ttf": "/DotDagerApp/static/media/Calvera.ef7994bf5e10f0e6fdfb.ttf",
+    "static/media/pickles.webp": "/DotDagerApp/static/media/pickles.f734cf6ebed5c1974128.webp",
+    "static/media/jokes.webp": "/DotDagerApp/static/media/jokes.46e91c1663ee15024ef7.webp",
+    "static/media/programming.webp": "/DotDagerApp/static/media/programming.6b54f3d8ff9baabec428.webp",
+    "static/media/picture2.webp": "/DotDagerApp/static/media/picture2.4ae28005dc4ead929985.webp",
+    "static/media/end.webp": "/DotDagerApp/static/media/end.2f3d2d271a2dc144d36c.webp",
+    "static/media/banner.webp": "/DotDagerApp/static/media/banner.fb4dccca29b2ae03ee8c.webp",
+    "static/media/lumber2.webp": "/DotDagerApp/static/media/lumber2.e6a07fc2046a4cf26133.webp",
+    "static/media/mmm.webp": "/DotDagerApp/static/media/mmm.6dc987d6787358beb93f.webp",
+    "static/media/lumber1.webp": "/DotDagerApp/static/media/lumber1.ae183edf877b23215526.webp",
+    "static/media/en.svg": "/DotDagerApp/static/media/en.08869548213416ae5d61.svg",
+    "static/media/es.svg": "/DotDagerApp/static/media/es.3db0eeb2d0e738837346.svg",
+    "index.html": "/DotDagerApp/index.html",
+    "main.6d0df1b8.css.map": "/DotDagerApp/static/css/main.6d0df1b8.css.map",
+    "main.57de83d2.js.map": "/DotDagerApp/static/js/main.57de83d2.js.map",
+    "453.54d27fe6.chunk.js.map": "/DotDagerApp/static/js/453.54d27fe6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d0df1b8.css",
+    "static/js/main.57de83d2.js"
+  ]
+}
