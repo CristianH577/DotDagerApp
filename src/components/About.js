@@ -1,6 +1,11 @@
-import { Image } from "@nextui-org/react";
-import { motion } from "framer-motion";
 import { useState } from "react";
+import { motion } from "framer-motion";
+
+import { Button, Image, Tooltip } from "@nextui-org/react";
+
+import { GiPickle } from "react-icons/gi";
+
+import mmm from "../assets/mmm.webp";
 
 function About({ text }) {
   const contextImg = require.context("../assets/about", true);
@@ -20,7 +25,12 @@ function About({ text }) {
       id="about"
       className="w-full flex flex-col items-center gap-8 py-20 "
     >
-      <article className="flex flex-col items-center gap-4 sm:flex-row px-4">
+      <motion.article
+        className="flex flex-col items-center gap-4 sm:flex-row px-4"
+        initial={{ opacity: 0, x: "-50%" }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
+      >
         <Image src={contextImg(`./picture2.webp`)} className="sm:min-w-96" />
         <div>
           <h2 className="font-semibold text-3xl text-warning">{text?.title}</h2>
@@ -28,7 +38,7 @@ function About({ text }) {
             {text?.description}
           </p>
         </div>
-      </article>
+      </motion.article>
 
       <motion.article
         className="grid sm:grid-cols-2 sm:justify-center gap-4 w-full "
@@ -79,10 +89,26 @@ function About({ text }) {
           >
             <div className="h-full w-full absolute blur-lg bg-white/30 left-0"></div>
             <h3
-              className="font-semibold z-10 text-4xl xs:group-:text-xl data-[active=true]:text-xl transition-all"
+              className="font-semibold z-10 text-4xl flex items-center gap-2"
               data-active={active === item}
             >
               {text?.items?.[item]?.title}
+              {item === "pickles" && (
+                <Tooltip
+                  content={
+                    <Image
+                      src={mmm}
+                      removeWrapper
+                      className="shadow-md h-[150px]"
+                    />
+                  }
+                  className="p-0"
+                >
+                  <Button isIconOnly className="p-0" variant="">
+                    <GiPickle className="w-full h-full text-lime-500" />
+                  </Button>
+                </Tooltip>
+              )}
             </h3>
             <p
               className="z-10 hidden xs:group-hover:flex data-[active=true]:flex transition-all"

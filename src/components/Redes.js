@@ -36,6 +36,7 @@ function Redes({ classNames, className }) {
           scale: 0,
           opacity: 0,
         },
+        // animate
         animate: {
           scale: 1,
           opacity: 1,
@@ -44,6 +45,8 @@ function Redes({ classNames, className }) {
             staggerChildren: 0.2,
           },
         },
+        // viewport: { once: true, amount: 0.5 },
+        // transition: { ease: "linear", duration: 0.1 },
       }}
       initial="initial"
       animate="animate"
@@ -65,7 +68,7 @@ function Redes({ classNames, className }) {
           <Link
             href={item.link}
             target="_blank"
-            className={`bg-divider rounded-full text-foreground p-2 cursor-pointer hover:bg-warning transition-all hover:text-danger shadow-md ${
+            className={`bg-divider rounded-full text-foreground p-2 cursor-pointer hover:bg-secondary transition-all hover:text-warning shadow-md ${
               classNames?.link || ""
             }`}
           >
