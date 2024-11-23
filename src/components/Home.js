@@ -6,7 +6,7 @@ import avatar from "../assets/avatar.jpg";
 
 function Home({ text }) {
   return (
-    <section className="flex flex-col justify-evenly lg:flex-row gap-4 lg:gap-0 items-center p-2 sm:p-8 lg:px-8 w-full max-w-none lg:justify-start h-[calc(100vh-4rem)] font-[menulis] ">
+    <section className="flex flex-col justify-evenly lg:flex-row gap-4 lg:gap-0 items-center p-2 pt-8 sm:p-8 lg:px-8 w-full max-w-none lg:justify-start h-[calc(100vh-4rem)] font-[menulis] ">
       <article className="w-full h-full flex flex-col items-center justify-center gap-2 lg:min-w-[520px]">
         <motion.div
           className="max-lg:text-center"
