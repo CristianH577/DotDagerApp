@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DotDagerApp/static/css/main.6d0df1b8.css",
-    "main.js": "/DotDagerApp/static/js/main.57de83d2.js",
+    "main.css": "/DotDagerApp/static/css/main.7e8cea91.css",
+    "main.js": "/DotDagerApp/static/js/main.53fd8a21.js",
     "static/js/453.54d27fe6.chunk.js": "/DotDagerApp/static/js/453.54d27fe6.chunk.js",
     "static/media/philosophy.webp": "/DotDagerApp/static/media/philosophy.6965384e604e22495245.webp",
     "static/media/cats.webp": "/DotDagerApp/static/media/cats.5eb5e99ef4f541e13c52.webp",
@@ -21,12 +21,12 @@
     "static/media/en.svg": "/DotDagerApp/static/media/en.08869548213416ae5d61.svg",
     "static/media/es.svg": "/DotDagerApp/static/media/es.3db0eeb2d0e738837346.svg",
     "index.html": "/DotDagerApp/index.html",
-    "main.6d0df1b8.css.map": "/DotDagerApp/static/css/main.6d0df1b8.css.map",
-    "main.57de83d2.js.map": "/DotDagerApp/static/js/main.57de83d2.js.map",
+    "main.7e8cea91.css.map": "/DotDagerApp/static/css/main.7e8cea91.css.map",
+    "main.53fd8a21.js.map": "/DotDagerApp/static/js/main.53fd8a21.js.map",
     "453.54d27fe6.chunk.js.map": "/DotDagerApp/static/js/453.54d27fe6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0df1b8.css",
-    "static/js/main.57de83d2.js"
+    "static/css/main.7e8cea91.css",
+    "static/js/main.53fd8a21.js"
   ]
 }
