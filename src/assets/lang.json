@@ -1,0 +1,88 @@
+{
+  "es": {
+    "NavbarCustom": {
+      "ariaOpen": "Abrir menú",
+      "ariaClose": "Cerrar menú",
+      "menuItems": {
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "contact": "Contacto"
+      }
+    },
+    "Home": { "title1": "creador de contenido" },
+    "About": {
+      "title": "Sobre mi",
+      "description": "Soy Mariano Villa, conocido como 'Dot Dager'. Soy un apasionado creador de contenido con un estilo único que combina mis múltiples intereses. Busco mostrarme auténtico en lo que digo y lo que hago para conectar con los que me siguen y consumen.",
+      "items": {
+        "programming": {
+          "title": "Programación",
+          "desc": "Analista de sistemas y desarrollador de software con más de 7 años de experiencia profesional en tecnologías full-stack (C#, SQL, ASPNET, JavaScript, Java, HTML, CSS, etc.) y una fuerte tendencia a la mejora y crecimiento constante, tanto en lo personal como en lo profesional. Soy una persona proactiva, comprometida y responsable. Si acepto un proyecto, será con el compromiso implícito de dar lo mejor de mí"
+        },
+        "cats": {
+          "title": "Gatos",
+          "desc": "Amante de los gatos, disfruto de su compañía y personalidad única. Encuentro felicidad en cuidarlos, observar sus travesuras y compartir momentos tranquilos con ellos"
+        },
+        "guitars": {
+          "title": "Guitarras",
+          "desc": "Apasionado por la música y las guitarras, disfruto explorar melodías, componer y expresar emociones a través de las cuerdas. Siempre en busco de nuevos acordes y ritmos que alimenten mi creatividad"
+        },
+        "philosophy": {
+          "title": "Filosofía",
+          "desc": "Entusiasta de la filosofía, siempre reflexionando sobre preguntas profundas y buscando comprender la naturaleza de la existencia, el conocimiento y la moral. Disfruto el debate y el intercambio de ideas que desafían el pensamiento"
+        },
+        "pickles": {
+          "title": "Pepinillos",
+          "desc": "Fanático de los pepinillos, disfruto su sabor único en cada bocado y no pierdo oportunidad de incluirlos en mis comidas. ¡Un verdadero amante de lo ácido y crujiente!"
+        },
+        "jokes": {
+          "title": "Chistes malos",
+          "desc": "Amante de los chistes malos, siempre listo para sacar una sonrisa con ocurrencias simples y juegos de palabras. Mi humor es contagioso y nunca falta una carcajada, aunque sea por lo absurdo"
+        }
+      }
+    },
+    "Contact": { "title": "Contacto" }
+  },
+  "en": {
+    "NavbarCustom": {
+      "ariaOpen": "Open menu",
+      "ariaClose": "Close menu",
+      "menuItems": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact"
+      }
+    },
+    "Home": { "title1": "content creator" },
+    "About": {
+      "title": "About me",
+      "description": "I am Mariano Villa, known as 'Dot Dager'. I am a passionate content creator with a unique style that combines my multiple interests. I seek to show myself authentic in what I say and what I do to connect with those who follow and consume me.",
+      "items": {
+        "programming": {
+          "title": "Programming",
+          "desc": "Systems analyst and software developer with more than 7 years of professional experience in full-stack technologies (C#, SQL, ASPNET, JavaScript, Java, HTML, CSS, etc.) and a strong tendency to constant improvement and growth, both personally and professionally. I am a proactive, committed and responsible person. If I accept a project, it will be with the implicit commitment to give my best"
+        },
+        "cats": {
+          "title": "Cats",
+          "desc": "Cat lover, I enjoy their company and unique personality. I find happiness in caring for them, watching their antics, and sharing quiet moments with them"
+        },
+        "guitars": {
+          "title": "Guitars",
+          "desc": "Passionate about music and guitars, I enjoy exploring melodies, composing, and expressing emotions through the strings. Always looking for new chords and rhythms that feed my creativity"
+        },
+        "philosophy": {
+          "title": "Philosophy",
+          "desc": "Philosophy enthusiast, always reflecting on deep questions and seeking to understand the nature of existence, knowledge, and morality. I enjoy debate and the exchange of ideas that challenge thought"
+        },
+        "pickles": {
+          "title": "Pickles",
+          "desc": "Pickle fanatic, I enjoy their unique flavor in every bite and I don't miss an opportunity to include them in my meals. A true lover of the sour and crunchy!"
+        },
+        "jokes": {
+          "title": "Bad jokes",
+          "desc": "Lover of bad jokes, always ready to bring a smile with simple witticisms and wordplay. My humor is contagious and there is never a lack of laughter, even if it is for the absurd"
+        }
+      }
+    },
+    "Contact": { "title": "Contact" }
+  }
+}
