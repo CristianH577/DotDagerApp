@@ -36,7 +36,6 @@ function Redes({ classNames, className }) {
           scale: 0,
           opacity: 0,
         },
-        // animate
         animate: {
           scale: 1,
           opacity: 1,
@@ -45,8 +44,6 @@ function Redes({ classNames, className }) {
             staggerChildren: 0.2,
           },
         },
-        // viewport: { once: true, amount: 0.5 },
-        // transition: { ease: "linear", duration: 0.1 },
       }}
       initial="initial"
       animate="animate"
@@ -63,6 +60,9 @@ function Redes({ classNames, className }) {
               opacity: 1,
               scale: 1,
             },
+          }}
+          whileTap={{
+            rotate: 360,
           }}
         >
           <Link

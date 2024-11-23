@@ -1,4 +1,7 @@
+import { motion } from "framer-motion";
+
 import { Link } from "@nextui-org/react";
+
 import { IoMdMail, IoLogoLinkedin } from "react-icons/io";
 import { TbBrandFiverr } from "react-icons/tb";
 
@@ -25,18 +28,26 @@ function Contact({ text }) {
       className="w-full py-20 flex flex-col items-center gap-4"
     >
       <h1 className="font-semibold text-4xl text-warning">{text?.title}</h1>
+
       <article className="flex flex-wrap justify-center gap-4">
         {items.map((item, i) => (
-          <Link
+          <motion.div
             key={i}
-            color="foreground"
-            href={item?.link || null}
-            target="_blank"
-            className="gap-2 text-xl ms-4"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ ease: "linear", duration: 1 }}
           >
-            {item.icon}
-            {item.text}
-          </Link>
+            <Link
+              color="foreground"
+              href={item?.link || null}
+              target="_blank"
+              className="gap-2 text-xl ms-4"
+            >
+              {item.icon}
+              {item.text}
+            </Link>
+          </motion.div>
         ))}
       </article>
     </section>
